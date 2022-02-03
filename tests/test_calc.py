@@ -6,3 +6,6 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc.plus(3,5), 8)
     def test_minus(self):
         self.assertEqual(calc.minus(10,3), 7)
+
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
