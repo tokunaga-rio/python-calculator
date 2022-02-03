@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      - python3 -m unittest tests.test_calc
+      - python -m unittest tests.test_calc
   post_build:
     commands:
       - echo Build completed on `date`
