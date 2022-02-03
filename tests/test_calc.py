@@ -1,5 +1,5 @@
 import unittest
-from calc
+import calc
 
 class TestCalc(unittest.TestCase):
     def test_plus(self):
